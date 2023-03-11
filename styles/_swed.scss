@@ -1,0 +1,75 @@
+@import "variables";
+
+.swed {
+  background-color: $light-70;  
+  h3 {
+  }
+  .swed-carousel {
+    .swed-arrow {
+      color: $danger-100;
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      line-height: 56px;
+      text-align: center;
+      border: 1px solid #dedfe7;
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 999;
+    }
+    .swed-left {
+      left: -60px;
+    }
+    .swed-right {
+      right: -30px !important;
+    }
+    .swed-item {
+      min-height: 520px;
+      padding: 20px;
+      background-color: white;
+      margin-left: 20px;
+      border-radius: 12px;
+      color: $dark-70;
+      transition: .3s ease;
+      &:first-child{
+        margin-left: 10px;
+      }
+      &:hover{
+        box-shadow: 0px 15px 25px rgba(48, 63, 115, 0.15);
+      }
+      &:hover p {
+        color: $primary-70;
+      }
+      &:hover div span {
+        color: $danger-100;
+      }
+      img {
+        margin-bottom: 10px;
+        display: block;
+      }
+      p {
+        font-size: 15px;
+        line-height: 24px;
+        color: $primary-70;
+      }
+      del{
+        display: block;
+        font-size: 15px;
+        line-height: 18px;
+        color: $dark-50;
+        margin-bottom: -20px;
+      }
+      div {
+        span {
+          font-size: 21px;
+          line-height: 26px;
+        }
+        img {
+          margin: 0;
+        }
+      }
+    }
+  }
+}

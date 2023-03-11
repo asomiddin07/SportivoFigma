@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportivo | Figma</title>
+    <!-- Google font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,700;1,900&family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+ 
+<body>
+
+    <header>
+        <div class="info">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="info-item">
+                        <img src="./images/icons/location.png" alt="location">
+                        <span>Нижний Новгород</span>
+                    </div>
+                    <ul>
+                        <li><a href="#" class="sportivo-active-link">Акции</a></li>
+                        <li><a href="#">Как заказать</a></li>
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Доставка и Оплата</a></li>
+                        <li><a href="#">Гарантии</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                    <div class="info-call">
+                        <div class="call-namber">
+                            <img src="./images/icons/clock.png" alt="clock">
+                            <span>8800 550-22-16</span>
+                        </div>
+                        <a href="#" class="order">Заказать звонок</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ">
+                        <li class="search-box">
+                            <input type="text" placeholder='Поиск по сайту'>
+                            <span class="fa-solid fa-search"></span>
+                        </li>
+                        <li class="heart-btn">
+                            <img src="./images/icons/heart.png" alt="heart">
+                        </li>
+                        <li class="statistic">
+                            <img src="./images/empty.png" alt="empty">
+                        </li>
+                        <li class="case d-flex align-items-center">
+                            <img src="./images/icons/shop-cart.png" alt="cart">
+                            <div class="case-content">
+                                <span class="d-block">Корзина (0)</span>
+                                <small class="d-block">Нет товаров</small>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="navigation-menu">
+            <div class="container">
+                <div class="d-flex menu-content">
+                    <div class="menu-item">
+                        <div class="dropdown">
+                            <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class='fa-solid fa-bars'></i><span class='ms-3'>Каталог товаров</span>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby='dropdownMenuButton1'>
+                                <ul class='left-menu'>
+                                    <li>
+                                        <span>Щведские стенки</span>
+                                        <span class='fa-solid fa-angle-right'></span>
+                                    </li>
+
+                                    <li>
+                                        <span>Турники</span>
+                                        <span class='fa-solid fa-angle-right'></span>
+                                    </li>
+
+                                    <li>
+                                        <span> Уличные комплексы</span>
+                                        <span class='fa-solid fa-angle-right'></span>
+                                    </li>
+
+                                    <li>
+                                        <span>Тяжелая атлетика</span>
+                                        <span class='fa-solid fa-angle-right'></span>
+                                    </li>
+
+                                    <li>
+                                        <span>Стойки под штангу</span>
+                                        <span class='fa-solid fa-angle-right'></span>
+                                    </li>
+
+                                    <li>
+                                        <span> Единоборства</span>
+                                        <span class='fa-solid fa-angle-right'></span>
+                                    </li>
+
+                                    <li>
+                                        <span>Фитнес</span>
+                                        <span class='fa-solid fa-angle-right'></span>
+                                    </li>
+
+                                    <li>
+                                        <span>Единоборства</span>
+                                        <span class='fa-solid fa-angle-right'></span>
+                                    </li>
+
+                                    <li>
+                                        <span>Тубинги</span>
+                                        <span class='fa-solid fa-angle-right'></span>
+                                    </li>
+
+                                    <li>
+                                        <span>Батуты</span>
+                                        <span class='fa-solid fa-angle-right'></span>
+                                    </li>
+
+                                    <li>
+                                        <span>Бассейны</span>
+                                        <span class='fa-solid fa-angle-right'></span>
+                                    </li>
+
+                                    <li>
+                                        <span>Рюкзаки и сумки</span>
+                                        <span class='fa-solid fa-angle-right'></span>
+                                    </li>
+
+                                    <li>
+                                        <span>Новогодние ёлки</span>
+                                        <span class='fa-solid fa-angle-right'></span>
+                                    </li>
+
+                                    <li>
+                                        <span> Детские игрушки</span>
+                                        <span class='fa-solid fa-angle-right'></span>
+                                    </li>
+
+                                    <li>
+                                        <span>Самокаты</span>
+                                        <span class='fa-solid fa-angle-right'></span>
+                                    </li>
+
+                                    <li>
+                                        <span>Велосипеды</span>
+                                        <span class='fa-solid fa-angle-right'></span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <a href="#">Шведские стенки</a>
+                    </div>
+                    <div class="menu-item">
+                        <a href="#">Шведские стенки</a>
+                    </div>
+                    <div class="menu-item">
+                        <a href="#">Турники</a>
+                    </div>
+                    <div class="menu-item">
+                        <a href="#">Тяжелая атлетика</a>
+                    </div>
+                    <div class="menu-item ">
+                        <a class='warning-item' href="#">% Товары со скидкой</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class='top-img-content'>
+        <div class="container">
+            <div class="img-content">
+                <div class="content-item">
+                    <h1>Соберите шведскую стенку по своему желанию!</h1>
+                    <p>Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил, что он у себя в постели
+                        превратился в страшное насекомое.</p>
+                    <button class='sportivo-btn'>Перейти в конструктор</button>
+                </div>
+                <div class="content-item">
+                    <h3>Собственное швейное производство</h3>
+                    <span>Приглашаем к сотрудничеству</p>
+                    <a class='item-link' href="#">Подробнее
+                        <span class='fa-solid fa-angle-right'></span>
+                    </a>
+                </div>
+                <div class="content-item">
+                    <h3>Посетите наш шоу-рум!</h3>
+                    <span>Н.Новгород, ул.Народная 20 Ежедневно с 9:00 до 19:00</p>
+                    <a class='item-link' href="#">Подробнее
+                        <span class='fa-solid fa-angle-right'></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="swed">
+        <div class="contaainer">
+            <div class="row">
+                <h3>Шведские стенки</h3>
+            </div>
+            <div class="swed-carousel">
+                <div class="swed-item">
+                    <img src="./images/stenki-1.png" alt="stenke">
+                    <p>Шведская стенка P-19 (Цвет: Белый)</p>
+                    <div class='d-flex justify-content-between align-items-center'>
+                        <span>14 980 ₽</span>
+                        <img src="./images/icons/add-static.png" alt="shop">
+                    </div>
+                </div>
+                <div class="swed-item">
+                    <img src="./images/stenki-2.png" alt="stenke">
+                    <p>Шведская стенка P-19 (Цвет: Белый)</p>
+                    <del>11 320p</del>
+                    <div class='d-flex justify-content-between align-items-center'>
+                        <span>14 980 ₽</span>
+                        <img src="./images/icons/add-static.png" alt="shop">
+                    </div>
+                </div>
+                <div class="swed-item">
+                    <img src="./images/stenki-3.png" alt="stenke">
+                    <p>Шведская стенка P-19 (Цвет: Белый)</p>
+                    <del>14 990p</del>
+                    <div class='d-flex justify-content-between align-items-center'>
+                        <span>14 980 ₽</span>
+                        <img src="./images/icons/add-static.png" alt="shop">
+                    </div>
+                </div>
+                <div class="swed-item">
+                    <img src="./images/stenki-4.png" alt="stenke">
+                    <p>Шведская стенка P-19 (Цвет: Белый)</p>
+                    <div class='d-flex justify-content-between align-items-center'>
+                        <span>14 980 ₽</span>
+                        <img src="./images/icons/add-static.png" alt="shop">
+                    </div>
+                </div>
+                <div class="swed-item"> 
+                    <img src="./images/stenki-3.png" alt="stenke">
+                    <p>Шведская стенка P-19 (Цвет: Белый)</p>
+                    <div class='d-flex justify-content-between align-items-center'>
+                        <span>14 980 ₽</span>
+                        <img src="./images/icons/add-static.png" alt="shop">
+                    </div>
+                </div>
+                <div class="swed-item">
+                    <img src="./images/stenki-1.png" alt="stenke">
+                    <p>Шведская стенка P-19 (Цвет: Белый)</p>
+                    <div class='d-flex justify-content-between align-items-center'>
+                        <span>14 980 ₽</span>
+                        <!-- <img src="./images/icons/add-static.png" alt="shop"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class='catalog'>
+        <div class="container">
+            <div class="catalog-title">
+                <h2>Каталог товаров</h2>
+            </div>
+            <div class="catalog-content">
+                <div class="catalog-item">
+                    <div>
+                        <img src="./images/catalog-1.png" alt="catalog">
+                        <p>Щведские стенки</p>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div>
+                        <img src="./images/catalog-2.png" alt="catalog">
+                        <p>Турники</p>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div>
+                        <img src="./images/catalog-3.png" alt="catalog">
+                        <p>Уличные комплексы</p>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div>
+                        <img src="./images/catalog-4.png" alt="catalog">
+                        <p>Тяжелая атлетика</p>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div>
+                        <img src="./images/catalog-5.png" alt="catalog">
+                        <p>Стойки под штангу</p>
+                    </div>
+               </div>
+                <div class="catalog-item">
+                  <div>
+                      <img src="./images/catalog-6.png" alt="catalog">
+                            <p>Единоборства</p>
+                  </div>
+              </div>
+                <div class="catalog-item">
+                  <div>
+                      <img src="./images/catalog-7.png" alt="catalog">
+                            <p>Фитнес</p>
+                  </div>
+                </div>
+                <div class="catalog-item">
+                  <div>
+                      <img src="./images/catalog-8.png" alt="catalog">
+                            <p>Весь каталог</p>
+                  </div>
+              </div>
+            </div>
+    </section>
+
+    <section>
+        <div class="company">
+            <div class="container">
+                 <div class='d-flex justify-content-between align-items-end'>
+                    <div>
+                        <h2>О компании</h2>
+                        <p>Компания «Sportova» специализируется на продаже шведских стенок, детских площадок и тренажеров. Мы являемся официальными дилерами ведущих производителей шведских стенок и детских площадок.</p>
+                    </div>
+                    <a href="#">Подробнее <span class='fa-solid fa-angle-right'></span></a>
+                 </div>
+            </div>
+            <div class="company-content">
+                <div class="company-item">
+                    <img src="./images/catalog-1.png" alt="company">
+                    <span>Выставочный зална 450 кв.м</span>
+                </div>
+            <div class="company-item">
+                <img src="./images/storage 1.png" alt="company">
+                <span>90% товара в наличии на складе</span>
+            </div>
+            <div class="company-item">
+                <img src="./images/storage 3.png" alt="company">
+                <span>90% товарав наличии на складе</span>
+            </div>
+            <div class="company-item">
+                <img src="./images/storage 4.png" alt="company">
+                <span>Отправляем в регионы с оплатой при получении</span>
+            </div>
+            <div class="company-item"></div>
+            <div class="company-item">
+                <ul class='list-unstyled m-0 p-0'>
+                    <li>
+                        <p>Узкая специализация. Мы знаем больше нюансов и потребностей клиента, чем магазины, которые продают все подряд. Соответственно, сможем лучше проконсультировать и подобрать необходимый Вам комплекс</p>
+                    </li>
+                    <li>
+                        <p>90% ассортимента держим в наличии на складе в Нижнем Новгороде и Москве</p>
+                    </li>
+                    <li>
+                        <p>Выставочный зал, где все оборудование надежно закреплено. Вы можете протестировать комплексы еще до покупки;<p>
+                    </li>
+                    <li>
+                        <p>Если Вам необходима сборка шведской стенки, детской площадки или турника – мы предоставляем такую услугу. В компании работают опытные и аккуратные специалисты. Также мы оказываем услугу по укорачиванию шведской стенки;</p>
+                    </li>
+                    <li>
+                        <p>Если товар не подошел, Вы можете его обменять или вернуть в течение расширенного срока в 30 дней;</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="company-item">
+                <img src="./images/company-6.png" alt="img">
+            </div>
+            <div class="company-item">
+                <img src="./images/company-7.png" alt="img">
+            </div>
+            <div class="company-item">
+                <img src="./images/company-6.png" alt="img">
+            </div>
+            <div class="company-item">
+                <img src="./images/company-7.png" alt="img">
+            </div>
+        </div>
+    </section>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script> -->
+    <script type='text/javascript' src='//code.jquery.com/jquery-1.11.0.min.js'></script>
+    <script type='text/javascript' src='//code.jquery.com/jquery-migrate-1.2.min.js'></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(() => {
+            $(".swed-carousel").slick({
+                slidesToShow: 4,
+                arrows: true,
+                dots: false,
+                prevArrow: `<span class="fa-solid fa-angle-left swed-arrow"></span>`,
+                nextArrow: `<span class="fa-solid fa-angle-right swed-arrow"></span>`,
+                responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+            });
+        });
+    </script>
+</body>
+
+</html>
